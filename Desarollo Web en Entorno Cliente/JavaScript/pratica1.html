@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="practica1.js"></script>
+</head>
+<body>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 1.1</p>
+    <div id="numero1" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Escribe el primer numero</label>
+        <input type="text" name="num1" id="num1" style="width: 100px">
+    </div>
+    <div id="numero2" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Escribe el segundo numero</label>
+        <input type="text" name="num2" id="num2" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio1()">Resultado</button>
+        <p id="suma"></p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 1.2</p>
+    <div id="numero3" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Escribe el primer numero</label>
+        <input type="text" name="num1" id="num3" style="width: 100px">
+    </div>
+    <div id="numero4" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Escribe el segundo numero</label>
+        <input type="text" name="num2" id="num4" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio2()">Resultado</button>
+        <p id="producto"></p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 1.3</p>
+    <div id="numero5" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime la temperatura en grados centigrados</label>
+        <input type="text" name="num1" id="num5" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio3()">Transformar</button>
+        <p id="centigrados"></p>
+        <p id="fahrenheit"></p>
+        <p id="kelvin"></p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 2.1</p>
+    <div id="numero6" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el valor del lado del cuadrado</label>
+        <input type="text" name="num1" id="num6" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio4()">Calcular area</button>
+        <p id="area"></p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 2.2</p>
+    <div id="numero7" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el valor del radio del circulo</label>
+        <input type="text" name="num1" id="radio" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio5()">Calcular area</button>
+        <p id="area2"></p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 3.1</p>
+    <div id="numero8" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el precio del producto</label>
+        <input type="text" name="num1" id="precio" style="width: 100px">
+    </div>
+    <div id="numero9" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el valor del descuento del producto</label>
+        <input type="text" name="num1" id="descuento" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio6()">Mostrar resultados</button>
+        <p id="cantInicial"></p>
+        <p id="cantAhorrada"></p>
+        <p id="cantAPagar"></p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+    <p>Ejercicio 3.2</p>
+    <div id="numero10" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el precio del producto</label>
+        <input type="text" name="num1" id="gasolina" style="width: 100px">
+    </div>
+    <div id="numero11" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el valor del descuento del producto</label>
+        <input type="text" name="num1" id="hotel" style="width: 100px">
+    </div>
+    <div id="numero12" style="display: flex; flex-direction: column; align-items: normal; justify-content: space-around; margin-bottom: 2%">
+        <label>Dime el valor del descuento del producto</label>
+        <input type="text" name="num1" id="restaurante" style="width: 100px">
+    </div>
+    <div>
+        <button onclick="ejercicio7()">Mostrar resultados</button>
+        <p id="cantInicial"></p>
+        <p id="cantAhorrada"></p>
+        <p id="cantAPagar"></p>
+    </div>
+</div>
+</body>
+</html>
