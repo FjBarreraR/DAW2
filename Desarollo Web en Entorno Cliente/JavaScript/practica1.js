@@ -47,5 +47,19 @@ function ejercicio6(){
     document.getElementById('cantInicial').textContent = "El precio inicial es de: " + precioProducto + "$";
     document.getElementById('cantAhorrada').textContent = "La cantidad de dinero que te ahorras es de: " + calcularDesc + "$";
     document.getElementById('cantAPagar').textContent = "El total a pagar es de: " + precioFinal + "$";
+}
 
+function ejercicio7(){
+    let gasolina = document.getElementById('gasolina').value;
+    let hotel = document.getElementById('hotel').value;
+    let restaurante = document.getElementById('restaurante').value;
+
+    let total = parseFloat(gasolina) + parseFloat(hotel) + parseFloat(restaurante);
+    let gasolinaSol =( parseFloat(gasolina) * 100) / parseFloat(total);
+    let hotelSol =( parseFloat(hotel) * 100) / parseFloat(total);
+    let restauranteSol =( parseFloat(restaurante) * 100) / parseFloat(total);
+
+    document.getElementById('porcGasolina').textContent = "El porcentaje es de: " + gasolinaSol + "%";
+    document.getElementById('porcHotel').textContent = "El porcentaje es de: " + hotelSol + "%";
+    document.getElementById('porcRestaurante').textContent = "El porcentaje es de: " + restauranteSol + "%";
 }
