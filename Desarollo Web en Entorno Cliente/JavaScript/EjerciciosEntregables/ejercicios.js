@@ -80,14 +80,14 @@ function ejercicio2(){
 
 function ejercicio3(){
     // Variables de los alumnos con sus notas
-    const Fran = 5.69;
-    const Angela = 9.50;
-    const Ivan = 3.26;
-    const Aaron = 7.07;
+    let
 
     // Pedimos al usuario que introduzca su nombre
     const usuario = prompt("Introduce tu nombre de usuario:");
 
     // Comprobamos si esta registrado y sino lo agregamos
-    
+    document.getElementById("alumno1").textContent = "Nombre: " + Fran;
+    document.getElementById("alumno2").textContent = "Nombre: " + Fran;
+    document.getElementById("alumno3").textContent = "Nombre: " + Fran;
+    document.getElementById("alumno4").textContent = "Nombre: " + Fran;
 }
