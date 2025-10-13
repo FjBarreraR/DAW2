@@ -78,10 +78,14 @@ function ejercicio2(){
     } 
 }
 
+// EJERCICIO 3
+// VARIABLES DE LOS ALUMNOS CON SUS NOTAS
+let alumnos = new Map();
+alumnos.set("Angela", 10);
+alumnos.set("Fran", 10);
+alumnos.set("Ivan", 10);
+alumnos.set("Aaron", 10);
 function ejercicio3(){
-    // Variables de los alumnos con sus notas
-    let
-
     // Pedimos al usuario que introduzca su nombre
     const usuario = prompt("Introduce tu nombre de usuario:");
 
