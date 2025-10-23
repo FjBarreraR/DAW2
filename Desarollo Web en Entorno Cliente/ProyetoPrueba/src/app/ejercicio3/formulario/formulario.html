@@ -1,0 +1,20 @@
+<div class="mb-3">
+    <label for="inputNumero" class="mx-2">Operando A</label>
+    <input id="inputNumero" type="text" [(ngModel)]="operandoA"/>
+</div>
+<div class="mb-3">
+    <label for="inputNumero" class="mx-2">Operando B</label>
+    <input id="inputNumero" type="text" [(ngModel)]="operandoB"/>
+</div>
+<div>
+    <select name="operaciones" id="operaciones" [(ngModel)]="operador">)>
+        <option value="suma">Suma</option>
+        <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicación</option>
+        <option value="division">División</option>
+        <option value="raiz_cuadrada">Raiz cuadrada</option>
+    </select>
+</div>
+<button class="btn btn-primary w-25" (click)="operar()">
+    Calcular
+</button>
