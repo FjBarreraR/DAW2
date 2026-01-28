@@ -37,8 +37,6 @@ function Ejercicio2() {
                 Detener propagación en el botón
             </label>
 
-            <br /><br />
-
             <div
                 onClick={handleContenedorClick}
                 style={{
@@ -57,8 +55,6 @@ function Ejercicio2() {
                     }}
                 >
                     Subcontenedor
-
-                    <br /><br />
 
                     <button onClick={handleBotonClick}>
                         Botón interno

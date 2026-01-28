@@ -26,8 +26,6 @@ function Ejercicio1() {
                 Botón
             </button>
 
-            <br /><br />
-
             <input
                 type="text"
                 placeholder="Escribe algo..."
@@ -40,8 +38,6 @@ function Ejercicio1() {
                 onMouseOver={() => addLog("mouseover", "Input")}
             />
 
-            <br /><br />
-
             <a
                 href="#"
                 onClick={(e) => {
@@ -52,8 +48,6 @@ function Ejercicio1() {
             >
                 Enlace de ejemplo
             </a>
-
-            <br /><br />
 
             <div
                 style={{
@@ -91,5 +85,4 @@ function Ejercicio1() {
         </div>
     );
 }
-
 export default Ejercicio1;

@@ -113,8 +113,6 @@ function Ejercicio3() {
                     )}
                 </div>
 
-                <br />
-
                 <div>
                     <label>Email</label><br />
                     <input
@@ -132,8 +130,6 @@ function Ejercicio3() {
                     )}
                 </div>
 
-                <br />
-
                 <div>
                     <label>Edad</label><br />
                     <input
@@ -150,8 +146,6 @@ function Ejercicio3() {
                         <p style={{ color: "red" }}>{errors.edad}</p>
                     )}
                 </div>
-
-                <br />
 
                 <button type="submit">Enviar</button>
             </form>
